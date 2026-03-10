@@ -11,15 +11,16 @@ function ejercicio_1() {
 
 function ejercicio_2() {
     let nombre = prompt("Ingresa tu nombre")
-    let usuario = []
-    if (nombre = "") {
-        alert("Error: El nombre no puede estar en blanco")
+    let usuarios = []
+    if (nombre !== "") {
+        usuarios.push(nombre);
+        alert(`Hola ${usuarios}`)
     } else {
-        usuario.push(nombre)
+        alert("Error: El nombre no puede estar en blanco")
     }
-}
+};
 
 function ejercicio_3() {
     let productos = ["celular", "teclado", "mouse"];
-    let nuevoProducto
+    let nuevoProducto 
 }
